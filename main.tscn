@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://pl5mb4aannxh"]
+
+[ext_resource type="Script" uid="uid://dgec2p5hrc2wj" path="res://scripts/main.gd" id="1_ig7tw"]
+
+[node name="main" type="Node"]
+script = ExtResource("1_ig7tw")
+
+[node name="TicTacToe" type="Node" parent="."]
+script = "res://scripts/tictactoe_game.gd"
